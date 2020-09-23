@@ -1,0 +1,29 @@
+{
+    "name": "chriischambers/star-wars-planets",
+    "description": "Get a random Star Wars planet",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Chambers"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "guzzlehttp/guzzle": "^7.1",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChriisChambers\\StarWarsPlanets\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ChriisChambers\\StarWarsPlanets\\Tests\\" : "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3"
+    }
+}
